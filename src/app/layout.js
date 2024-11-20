@@ -9,6 +9,14 @@ const faculty = Faculty_Glyphic({
 export const metadata = {
   title: 'Questodoro',
   description: 'A gamified Pomodoro timer',
+  openGraph: {
+    images: [{
+      url: 'https://res.cloudinary.com/dk9mn4cvz/image/upload/v1732056862/Questodoro-Gamified-Pomodoro-Mariana-Oka_pk0vtn.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Questodoro - A gamified Pomodoro timer',
+    }],
+  },
   icons: {
     icon: [
       {
